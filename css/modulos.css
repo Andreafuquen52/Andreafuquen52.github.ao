@@ -1,0 +1,184 @@
+@import url(https://weloveiconfonts.com/api/?family=typicons);
+@import url(https://weloveiconfonts.com/api/?family=zocial);
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+
+/* typicons */
+[class*="typicons-"]:before {
+    font-family: 'Typicons', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    background: linear-gradient(60deg, #52044796 40%, #5c738ad5 50%);
+    background-attachment: fixed;
+    height: 200px;
+    font-size: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    color: bisque;
+    font-family: Castellar;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    margin-top: 70px;
+    margin-left: 0;
+}
+
+/* estilos de navegacion */
+.logout{
+border-left: 1px solid cornsilk;
+}
+
+.header-nave {
+    padding: 60px;
+}
+
+nav {
+    float: left;
+}
+
+nav ul {
+    list-style: none;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    background: #eca023;
+}
+
+/* fine estilos */
+img {
+    width: 1000px;
+    height: 900px;
+    margin-left: 50px;
+
+}
+
+.boton {
+    background-color: rgba(224, 210, 10, 0.575);
+    width: 250px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 35px;
+    margin-left: 900px;
+    text-align: center;
+    padding: 20px;
+
+
+}
+
+.boton:hover {
+    background: #e06a0a98;
+    color: #fff !important;
+}
+
+a {
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.principal {
+    background-color: rgba(148, 233, 122, 0.5);
+    background-image: url("http://pluspng.com/img-png/book-png-book-stack-png-image-25686-1024.png");
+    padding: 25px;
+    padding-left: 100px;
+    padding-right: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 900px;
+
+}
+
+footer {
+    background-color: rgb(8, 8, 8);
+    margin-top: 1px;
+    height: 100px;
+}
+
+.Pmodulo {
+    background-color: rgba(78, 4, 4, 0.541);
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    position: relative;
+    box-shadow: -1px -1px 6px 0 rgb(122, 221, 102), 4px 4px 16px 2px rgb(92, 162, 235);
+    color: bisque;
+    border-top-left-radius: 100px;
+}
+
+
+.item1-modulo {
+    background-color: rgba(132, 253, 11, 0.534);
+    width: 200px;
+
+    border-top-left-radius: 100px;
+
+}
+
+.item1-modulo p {
+    font-size: 50px;
+
+}
+
+
+.item3-modulo {
+
+    border-radius: 50px;
+    background-color: rgb(198, 198, 207);
+    width: 200px;
+    height: 70px;
+    padding: 20px;
+    position: absolute;
+
+
+}
+
+.item3-modulo:hover {
+    box-shadow: inset 0 0 20px rgba(49, 138, 172, 0.5), 0 0 20px rgba(49, 138, 172, 0.4);
+    outline-color: rgba(49, 138, 172, 0);
+    outline-offset: 80px;
+    text-shadow: 1px 1px 6px #fff;
+
+}
+
+.ver {
+    padding-top: 45px;
+    width: 130px;
+
+}
+.foot{
+    background-color: rgb(15, 15, 15);
+    color: rgb(245, 245, 245);
+    text-align: center;
+    height: 100px;
+    font-size: 30px;
+    margin-top: 05px;
+    padding-top: 20px;
+}

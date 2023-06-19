@@ -1,0 +1,196 @@
+@import url(https://weloveiconfonts.com/api/?family=zocial);
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: linear-gradient(60deg, #52044796 40%, #5c738ad5 50%);
+    background-attachment: fixed;
+    height: 200px;
+    font-size: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    color: bisque;
+    font-family: Castellar;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h1 {
+    margin-top: 70px;
+    margin-left: 0;
+}
+
+/* menu de navegacion */
+
+.logout {
+    border-left: 1px solid cornsilk;
+}
+
+.header-nave {
+    padding: 60px;
+}
+
+nav {
+    float: left;
+}
+
+nav ul {
+    list-style: none;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    background: #eca023;
+}
+
+.contenido-tabla {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+table {
+    background-color: rgba(255, 235, 205, 0.473);
+    width: 500px;
+    height: 250px;
+}
+
+.botones {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px;
+
+}
+
+.boton {
+    background-color: rgba(224, 210, 10, 0.575);
+    width: 100px;
+    height: 50px;
+    border-radius: 30px;
+    text-align: center;
+    padding: 15px;
+
+}
+
+.boton:hover {
+    box-shadow: inset 0 0 20px rgba(49, 138, 172, 0.5), 0 0 20px rgba(49, 138, 172, 0.4);
+    outline-color: rgba(49, 138, 172, 0);
+    outline-offset: 80px;
+    text-shadow: 1px 1px 6px #fff;
+
+}
+
+.contenido {
+    background-color: rgba(13, 51, 1, 0.5);
+    padding: 1px;
+    padding-left: 100px;
+    padding-right: 150px;
+}
+
+footer {
+    background-color: rgba(133, 209, 10, 0.596);
+    height: 50px;
+    margin-top: 1px;
+}
+
+
+.icono {
+    background-color: rgba(223, 226, 43, 0.438);
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border-radius: 1000px;
+    padding-top: 2px;
+    color: rgb(253, 7, 7);
+    font-size: 50px;
+    margin: 30px;
+}
+
+.icon {
+    text-decoration: none;
+}
+
+.contenido input {
+    display: block;
+    margin: auto;
+    height: 40px;
+    width: 75%;
+    padding-left: 10px;
+    color: #0026ff;
+    border-radius: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: transparent;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 1rem;
+    outline: none;
+    border: 1px solid #fefcff;
+}
+
+.contenido input[type="password"] {
+    margin-top: 20px;
+}
+
+.contenido select {
+    display: block;
+    margin: auto;
+    height: 40px;
+    width: 75%;
+    padding-left: 10px;
+    color: #161616;
+    border-radius: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: transparent;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 1rem;
+    outline: none;
+    border: 1px solid #fefcff;
+}
+
+.contenido input[type="password"] {
+    margin-top: 20px;
+}
+
+.nombre-modulo {
+    font-size: 100px;
+    margin-left: 200px;
+}
+
+footer {
+    background-color: rgb(8, 8, 8);
+    margin-top: 1px;
+    height: 100px;
+}
+
+.foot {
+    background-color: rgb(15, 15, 15);
+    color: rgb(245, 245, 245);
+    text-align: center;
+    height: 100px;
+    font-size: 30px;
+    margin-top: 05px;
+    padding-top: 20px;
+}
